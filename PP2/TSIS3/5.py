@@ -13,7 +13,7 @@ def filter_prime(numbers):
             prime_numbers.append(num)
     return prime_numbers
 
-# Пример использования:
+
 numbers = input().split()
 numbers = [int(num) for num in numbers]
 prime_numbers = filter_prime(numbers)
